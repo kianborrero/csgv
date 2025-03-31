@@ -1,0 +1,198 @@
+// Import Bootstrap functions & variables
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Override Bootstrap Theme Colors
+$primary: #645655; // Custom primary color
+$secondary: #00041a; // Custom secondary color
+$success: #ffffff;
+$danger: #dc3545;
+
+// Merge with Bootstrap theme colors
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+);
+
+// Import "Righteous" font from Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+// Apply "Righteous" font globally
+// Override Bootstrap's default font family
+$font-family-sans-serif: "Righteous", sans-serif;
+
+// Import the rest of Bootstrap SCSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom button styling
+.btn {
+  border-radius: 50px; // Fully rounded button
+  transition: all 0.3s ease-in-out; // Smooth hover animation
+
+  &:hover {
+    transform: scale(1.05); // Slight scale effect on hover
+  }
+}
+
+// Custom form styling
+.form-control {
+  border: 2px solid #ced4da; // Custom border
+  border-radius: 10px; // Rounded corners
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Soft shadow effect
+
+  &:focus {
+    border-color: $primary; // Highlight with primary color
+    box-shadow: 0px 4px 8px rgba(255, 87, 51, 0.5); // Glow effect
+  }
+}
+
+.hero-section {
+  background: url("../image/4771416_2506219.jpg") no-repeat center center/cover;
+  height: 100vh; // Full height of the viewport
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); // Dark overlay effect
+  }
+
+  .hero-img {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    animation: float 3s infinite ease-in-out;
+  }
+
+  // Background Divs (Behind the Image)
+  .bg-box {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.1); // Light transparency
+    z-index: 1;
+  }
+
+  .box1 {
+    top: -20px;
+    right: 50px;
+    background: #645655; // Grayish background
+  }
+
+  .box2 {
+    top: 180px;
+    left: 50px;
+    background: #645655; // Darker background
+
+    z-index: 2; // Place this above box1 but below the image
+  }
+
+  // Floating Animation for the Image
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 1; // Ensure text is above overlay
+  }
+
+  h1 {
+    font-family: "Righteous", sans-serif; // Apply Righteous font
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #645655;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.service-icon img {
+  width: 75%;
+  height: auto;
+}
+
+.service-text {
+  flex: 1;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.testimonial-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+
+// Import the rest of Bootstrap SCSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
