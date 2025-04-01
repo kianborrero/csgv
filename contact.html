@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/custom.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Techboost</title>
+    <link rel="icon" href="assets/image/LOGO (1).png" type="image/x-icon" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <style>
+    .contact-section {
+      position: relative;
+      background: url("assets/image/4771416_2506219.jpg") no-repeat center
+        center;
+      background-size: cover;
+      min-height: 1000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .contact-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+    }
+
+    .contact-form {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .contact-form label {
+      text-align: left !important;
+      display: block;
+    }
+
+    .contact-form input,
+    .input {
+      background: #e0e0e0;
+    }
+
+    .location-section {
+      background: #5e4b47; /* Match your theme */
+      color: white;
+      padding: 40px 0;
+    }
+
+    .map-container {
+      width: 100vw; /* Full width of the viewport */
+      height: 500px; /* Adjust height as needed */
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  </style>
+  <body>
+    <main>
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/image/LOGO (1).png"
+              style="width: 4rem"
+              class="ms-5"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="contact-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Left Side: Text Content -->
+            <div class="col-lg-6 text-white text-center text-lg-center">
+              <h1>
+                Any Questions? <br />
+                Send us an Email
+              </h1>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="col-lg-6">
+              <div class="contact-form p-4 mt-5 mx-auto">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      placeholder="John"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="surname" class="form-label">Surname</label>
+                    <input
+                      type="text"
+                      id="surname"
+                      class="form-control"
+                      placeholder="Doe"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="example@email.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      id="message"
+                      class="form-control input"
+                      rows="3"
+                      placeholder="How can we help you?"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Submit
+                  </button>
+                </form>
+              </div>
+              <p class="text-center text-white mt-3">
+                For support, email us at
+                <a href="mailto:support@techboost.com" class="text-info"
+                  >support@techboost.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location-section text-center text-black">
+        <h2 class="mb-5">Locate us at:</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.7742831628557!2d123.0723257739087!3d10.904751389251912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af2d2b95900001%3A0x2329a89ab10f3d63!2sColegio%20De%20Sta.%20Ana%20De%20Victorias!5e0!3m2!1sen!2sph!4v1743524094432!5m2!1sen!2sph"
+            width="100%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer>
+        <footer class="footer py-4 bg-primary">
+          <div class="container mx-auto">
+            <!-- Divider Line -->
+            <hr class="footer-divider mb-5" />
+            <div class="row align-items-lg-start text-white">
+              <!-- Logo Section -->
+              <div class="col-md-3 text-center text-md-start">
+                <img
+                  src="assets/image/LOGO (1).png"
+                  style="width: 50%"
+                  alt="AI Logo"
+                  class="footer-logo"
+                />
+              </div>
+
+              <!-- Information Section -->
+              <div class="col-md-3 text-md-start text-center">
+                <h5>Information</h5>
+                <p><i class="fas fa-phone"></i> +63998484541</p>
+                <p><i class="fas fa-envelope"></i> example@gmail.com</p>
+              </div>
+              <!-- Location Section -->
+              <div class="col-md-3 text-md-start text-center">
+                <h5>Our Location</h5>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Victorias City,
+                  Philippines
+                </p>
+              </div>
+
+              <!-- Social Media Section -->
+              <div class="col-md-3 text-start text-md-start text-center">
+                <h5>Follow Us</h5>
+                <a href="#"
+                  ><i class="fab fa-facebook fa-lg text-white me-3"></i
+                ></a>
+                <a href="#"
+                  ><i class="fab fa-instagram fa-lg text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </footer>
+    </main>
+  </body>
+</html>
