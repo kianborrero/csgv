@@ -6,12 +6,26 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/styles/custom.css" />
     <script src="js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+    <title>Techboost</title>
+    <link rel="icon" href="assets/image/LOGO (1).png" type="image/x-icon" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
+  <style>
+    .testimonial-card {
+      min-height: 18.75;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  </style>
   <body>
     <main>
       <!-- navigation -->
-      <nav class="navbar navbar-expand-lg bg-primary">
+      <nav class="navbar navbar-expand-lg bg-primary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
@@ -33,19 +47,15 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0 gap-4">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About</a
-                >
+                <a class="nav-link" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Contact</a
-                >
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -61,11 +71,13 @@
                 Boost Your Productivity <br />
                 with AI
               </h1>
-              <a href="#" class="btn btn-primary mt-3">Get Started</a>
+              <a href="#service" class="btn btn-primary mt-3">Get Started</a>
             </div>
 
             <!-- Right Side: Image -->
-            <div class="col-lg-6 text-center position-relative">
+            <div
+              class="col-lg-6 text-center position-relative d-none d-lg-block"
+            >
               <!-- Background Divs -->
               <div class="bg-box box1"></div>
               <div class="bg-box box2"></div>
@@ -81,7 +93,7 @@
         </div>
       </section>
       <!-- Our Service -->
-      <section class="py-5 bg-primary">
+      <section class="py-5 bg-primary" id="service">
         <div class="container">
           <h1 class="text-center section-title text-secondary my-5">
             Our Service
@@ -89,35 +101,43 @@
 
           <div class="row justify-content-center">
             <!-- AI Scheduler Card -->
-            <div class="col-md-12 text-secondary text-center">
-              <div class="service-card d-flex align-items-start">
-                <!-- Left Side: Icon -->
-                <div class="service-icon">
+            <div class="col-md-12 text-secondary text-center text-md-center">
+              <div
+                class="service-card d-flex flex-column flex-md-column flex-lg-row align-items-center text-center text-lg-start"
+              >
+                <!-- Icon -->
+                <div class="service-icon mb-3">
                   <img
                     src="assets/image/3199618_454710-PFNKU6-586 1.png"
                     alt="AI Scheduler"
                   />
                 </div>
-
-                <!-- Right Side: Text -->
-                <div class="service-text my-auto">
+                <!-- Text -->
+                <div class="service-text">
                   <h3 class="service-title">AI Scheduler</h3>
                   <p>
                     An intelligent time manager that auto-schedules tasks,
                     prioritizes work, adapts dynamically, and syncs
-                    seamlessly—boosting your productivity effortlessly
+                    seamlessly—boosting your productivity effortlessly.
                   </p>
                 </div>
               </div>
             </div>
 
             <!-- Smart Notes Card -->
-            <div class="col-md-12">
+            <div class="col-md-12 text-secondary text-center text-md-center">
               <div
-                class="service-card d-flex align-items-start text-secondary text-center"
+                class="service-card d-flex flex-column flex-md-column flex-lg-row-reverse align-items-center text-center text-lg-start"
               >
-                <!-- Right Side: Text -->
-                <div class="service-text my-auto">
+                <!-- Icon -->
+                <div class="service-icon mb-3">
+                  <img
+                    src="assets/image/goodnotes-inerface 1.png"
+                    alt="Smart Notes"
+                  />
+                </div>
+                <!-- Text -->
+                <div class="service-text">
                   <h3 class="service-title">Smart Notes</h3>
                   <p>
                     An AI-powered note-taking app that transcribes, summarizes,
@@ -125,31 +145,23 @@
                     capture and retrieve.
                   </p>
                 </div>
-                <!-- Left Side: Icon -->
-                <div class="service-icon">
-                  <img
-                    src="assets/image/goodnotes-inerface 1.png"
-                    alt="Smart Notes"
-                  />
-                </div>
               </div>
             </div>
 
             <!-- AutoTask Manager Card -->
-            <div class="col-md-12">
+            <div class="col-md-12 text-secondary text-center text-md-center">
               <div
-                class="service-card d-flex align-items-start text-secondary text-center"
+                class="service-card d-flex flex-column flex-md-column flex-lg-row align-items-center text-center text-lg-start"
               >
-                <!-- Left Side: Icon -->
-                <div class="service-icon">
+                <!-- Icon -->
+                <div class="service-icon mb-3">
                   <img
                     src="assets/image/Organize-your-work-with-Asana-Task-management-software 1.png"
                     alt="AutoTask Manager"
                   />
                 </div>
-
-                <!-- Right Side: Text -->
-                <div class="service-text my-auto">
+                <!-- Text -->
+                <div class="service-text">
                   <h3 class="service-title">AutoTask Manager</h3>
                   <p>
                     An AI-driven tool that automates task scheduling,
@@ -169,7 +181,7 @@
 
           <div class="row">
             <!-- Testimonial 1 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-3">
               <div class="testimonial-card">
                 <div class="testimonial-image">
                   <img
@@ -187,7 +199,7 @@
             </div>
 
             <!-- Testimonial 2 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-3">
               <div class="testimonial-card">
                 <div class="testimonial-image">
                   <img
@@ -205,7 +217,7 @@
             </div>
 
             <!-- Testimonial 3 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-3">
               <div class="testimonial-card">
                 <div class="testimonial-image">
                   <img
@@ -223,7 +235,7 @@
             </div>
 
             <!-- Testimonial 4 -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 mb-3">
               <div class="testimonial-card">
                 <div class="testimonial-image">
                   <img
@@ -242,6 +254,53 @@
           </div>
         </div>
       </section>
+
+      <footer>
+        <footer class="footer py-4 bg-primary">
+          <div class="container mx-auto">
+            <!-- Divider Line -->
+            <hr class="footer-divider mb-5" />
+            <div class="row align-items-start text-white">
+              <!-- Logo Section -->
+              <div class="col-md-4 text-center text-md-start">
+                <img
+                  src="assets/image/LOGO (1).png"
+                  style="width: 50%"
+                  alt="AI Logo"
+                  class="footer-logo"
+                />
+              </div>
+
+              <!-- Information Section -->
+              <div class="col-md-4 text-start text-sm-center">
+                <h5>Information</h5>
+                <p><i class="fas fa-phone"></i> +63998484541</p>
+                <p><i class="fas fa-envelope"></i> example@gmail.com</p>
+              </div>
+
+              <!-- Location Section -->
+              <div class="col-md-2 text-start text-sm-center">
+                <h5>Our Location</h5>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Victorias City,
+                  Philippines
+                </p>
+              </div>
+
+              <!-- Social Media Section -->
+              <div class="col-md-2 text-start text-md-start text-sm-center">
+                <h5>Follow Us</h5>
+                <a href="#"
+                  ><i class="fab fa-facebook fa-lg text-white me-3"></i
+                ></a>
+                <a href="#"
+                  ><i class="fab fa-instagram fa-lg text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </footer>
     </main>
   </body>
 </html>
