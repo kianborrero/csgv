@@ -11626,31 +11626,36 @@ textarea.form-control-lg {
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
-.hero-section .hero-img {
+
+.hero-img {
   max-width: 80%;
   height: auto;
   position: relative;
   z-index: 3;
   animation: float 3s infinite ease-in-out;
 }
-.hero-section .bg-box {
+
+.bg-box {
   position: absolute;
   width: 250px;
   height: 250px;
   background: rgba(255, 255, 255, 0.1);
   z-index: 1;
 }
-.hero-section .box1 {
+
+.box1 {
   top: -20px;
   right: 50px;
   background: #645655;
 }
-.hero-section .box2 {
+
+.box2 {
   top: 180px;
   left: 50px;
   background: #645655;
   z-index: 2;
 }
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -11659,18 +11664,21 @@ textarea.form-control-lg {
     transform: translateY(-10px);
   }
 }
-.hero-section .container {
+.container {
   position: relative;
   z-index: 1;
 }
-.hero-section h1, .hero-section .h1 {
+
+h1, .h1 {
   font-family: "Righteous", sans-serif;
   font-size: 3rem;
 }
-.hero-section p {
+
+p {
   font-size: 1.2rem;
 }
-.hero-section .btn {
+
+.btn {
   margin-top: 20px;
   border-radius: 50px;
   padding: 10px 20px;
