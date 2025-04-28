@@ -21,24 +21,7 @@ A minimalist AI-themed logo was designed to symbolize innovation and technology 
 
 Color Scheme:
 
-Background: Dark tech-patterned background for a futuristic vibe.
-
-Primary Accent: Soft brown tones for cards and navigation to balance the dark theme.
-
-Font: Rounded, friendly typeface that remains easy to read while giving the design a slightly playful, futuristic touch.
-
- Bootstrap SCSS Customizations
-This project uses Bootstrap but with the following custom SCSS overrides:
-
-Primary Colors: Custom brown and dark backgrounds.
-
-Button Styles: Rounded corners with muted hover effects.
-
-Typography: Custom Google Fonts integration (for a softer, tech-appropriate look).
-
-Cards and Sections: Increased padding, larger border-radius, and soft box shadows for a modern card effect.
-
-All Bootstrap default variables were overridden in a separate SCSS file to maintain consistency across components.
+The website uses a modern, minimal color palette. The primary background is white, ensuring readability. Accent colors include vibrant shades of *blue and purple* for buttons and highlights, giving a tech-oriented feel. Text is mostly in *black or dark gray*, maintaining contrast. Testimonials and service cards use *light gray* backgrounds to subtly separate content. Overall, the color scheme is clean, professional, and tech-friendly.
 
 ## Live Demo
 https://binszx.github.io/csgv/
