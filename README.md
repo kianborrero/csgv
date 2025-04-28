@@ -14,6 +14,7 @@ The goal was to create an attractive, easy-to-navigate website that effectively 
 
 🎨 Design Choices
 Wireframe:
+![WireFrame](assets/readme img/landing page.png)
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
 Logo:
