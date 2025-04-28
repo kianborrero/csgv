@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-This project showcases three AI productivity tools—the AI Scheduler for automating task management, Smart Notes for AI-powered note-taking and organization, and the AutoTask Manager for automating task tracking and prioritization—with the goal of designing an attractive, user-friendly website that effectively communicates the benefits of AI in enhancing productivity.
+A suite of AI-powered productivity tools. These tools include an AI Scheduler for intelligent task management, Smart Notes for efficient note-taking, and an AutoTask Manager for automated task tracking. The site features testimonials from professionals who have benefited from these tools. Contact information and the company's location in Victorias City, Philippines, are also provided.
 
 
 ## Design Choices  
