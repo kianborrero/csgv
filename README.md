@@ -27,7 +27,7 @@ Primary Accent: Soft brown tones for cards and navigation to balance the dark th
 
 Font: Rounded, friendly typeface that remains easy to read while giving the design a slightly playful, futuristic touch.
 
-🎨 Bootstrap SCSS Customizations
+ Bootstrap SCSS Customizations
 This project uses Bootstrap but with the following custom SCSS overrides:
 
 Primary Colors: Custom brown and dark backgrounds.
@@ -40,8 +40,8 @@ Cards and Sections: Increased padding, larger border-radius, and soft box shadow
 
 All Bootstrap default variables were overridden in a separate SCSS file to maintain consistency across components.
 
-🚀 Live Demo
-👉https://binszx.github.io/csgv/
+## Live Demo
+https://binszx.github.io/csgv/
 
 
 
