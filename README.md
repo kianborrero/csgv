@@ -16,11 +16,26 @@ A suite of AI-powered productivity tools. These tools include an AI Scheduler fo
 ![Alt text](assets/image/color%20schemes.png)
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
-Logo:
-The logo features a bold, modern design representing "AI Support." It uses a stylized black "A" formed by geometric lines, with a red block above it suggesting the dot of a lowercase "i," completing the "AI" initials. The clean typography and dark background give it a sleek, tech-forward feel, reflecting innovation and digital support.
-Color Scheme:
+- *Primary (gray - #645655):* 
+- *Secondary (dark blue - #00041Av):* 
+- *Tertiary (white - #FFFFFF):* 
 
-The website uses a modern, minimal color palette. The primary background is white, ensuring readability. Accent colors include vibrant shades of *blue and purple* for buttons and highlights, giving a tech-oriented feel. Text is mostly in *black or dark gray*, maintaining contrast. Testimonials and service cards use *light gray* backgrounds to subtly separate content. Overall, the color scheme is clean, professional, and tech-friendly.
+## Bootstrap SCSS Customizations
+### Typography
+- The project uses Google Font *Poppins* for a modern and professional look.
+- Bootstrap's default font-family has been overridden with "Poppins", sans-serif.
+
+### Theme Customization
+Bootstrap's theme colors have been customized to align with the project's branding.
+
+- The .btn-pulse class adds an animated pulse effect to buttons to draw attention.
+- Sections such as .team-section, .impact-section, and .hero have been styled for better visual appeal and responsiveness.
+
+### Components & Utilities
+- The SCSS file includes a custom *pulse animation* for buttons.
+The navigation bar has been customized with a white stroke icon for the menu toggle.
+
+- Additional styling has been applied to sections like .about-section and .impact-section to enhance user experience.
 
 ## Live Demo
 https://binszx.github.io/csgv/
