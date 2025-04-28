@@ -12,9 +12,10 @@ AutoTask Manager: Automates task tracking and prioritization.
 
 The goal was to create an attractive, easy-to-navigate website that effectively communicates the benefits of AI in productivity tools.
 
-🎨 Design Choices
-Wireframe:
-![Alt text](assets/image/landing page (1).png)
+🎨 Design Choices  
+Wireframe:  
+![Alt text](assets/image/landing%20page%20(1).png)
+
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
 Logo:
