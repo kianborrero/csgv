@@ -31,11 +31,7 @@ Bootstrap's theme colors have been customized to align with the project's brandi
 - The .btn-pulse class adds an animated pulse effect to buttons to draw attention.
 - Sections such as .team-section, .impact-section, and .hero have been styled for better visual appeal and responsiveness.
 
-### Components & Utilities
-- The SCSS file includes a custom *pulse animation* for buttons.
-The navigation bar has been customized with a white stroke icon for the menu toggle.
 
-- Additional styling has been applied to sections like .about-section and .impact-section to enhance user experience.
 
 ## Live Demo
 https://binszx.github.io/csgv/
