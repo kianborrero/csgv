@@ -17,7 +17,7 @@ Wireframe:
 ![Alt text](assets/image/landing%20page%20(1).png)
 ![Alt text](assets/image/about%20page.png)
 ![Alt text](assets/image/contact%20page.png)
-![Alt text](assets/image/colorg%20scheme).png)
+![Alt text](assets/image/color%20scheme).png)
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
 Logo:
