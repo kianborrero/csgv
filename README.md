@@ -1,6 +1,4 @@
-AI Productivity Website
-A simple, modern web project showcasing AI-driven tools to boost productivity, featuring a responsive layout and clean UI design.
-
+**TECH-BOOST**
 **📝 Project Summary**
 
 This project showcases three AI productivity tools—the AI Scheduler for automating task management, Smart Notes for AI-powered note-taking and organization, and the AutoTask Manager for automating task tracking and prioritization—with the goal of designing an attractive, user-friendly website that effectively communicates the benefits of AI in enhancing productivity.
