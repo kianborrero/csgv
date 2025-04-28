@@ -22,14 +22,24 @@ Initial wireframes focused on a two-column layout—feature text on one side, re
 
 ## Bootstrap SCSS Customizations
 ### Typography
-- The project uses Google Font *Poppins* for a modern and professional look.
-- Bootstrap's default font-family has been overridden with "Poppins", sans-serif.
+The typography uses the "Poppins" font for a modern, clean, and professional look. Headings are bold and rounded, making them eye-catching yet friendly, while body text maintains a medium weight for easy readability. The text contrasts well against the muted dark background, creating a clear and inviting design that suits tech and productivity-focused services.
+
+
+
 
 ### Theme Customization
-Bootstrap's theme colors have been customized to align with the project's branding.
+Got it! Based on your website [https://binszx.github.io/csgv/](https://binszx.github.io/csgv/), I'll write a **Theme Customization** description for you. Here's a professional version you can use:
 
-- The .btn-pulse class adds an animated pulse effect to buttons to draw attention.
-- Sections such as .team-section, .impact-section, and .hero have been styled for better visual appeal and responsiveness.
+---
+
+**Theme Customization**  
+The theme of the website has been customized to deliver a modern, clean, and responsive design. The default Bootstrap styling has been overridden to feature the "Poppins" font family for a sleek and professional look. Custom color schemes were applied, using a deep navy blue and vibrant green palette to create a strong contrast and build trust.  
+Button elements are enhanced with a pulse animation (`.btn-pulse`) to draw user attention to key actions. Sections such as the Hero, Team, Impact, and About areas have been specifically styled for improved visual hierarchy and responsiveness across devices.  
+Additional adjustments include custom padding, margin tweaks, and hover effects on cards and buttons to create a more interactive and polished user experience. The overall theme prioritizes readability, accessibility, and modern UI/UX best practices.
+
+---
+
+Would you also like a **shorter** or **more casual** version depending on where you plan to use this (like for a project report, website documentation, or a pitch)? 🚀
 
 
 
