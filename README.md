@@ -1,17 +1,18 @@
-**TECH-BOOST**
+# **TECH-BOOST**
+
 **📝 Project Summary**
 
 This project showcases three AI productivity tools—the AI Scheduler for automating task management, Smart Notes for AI-powered note-taking and organization, and the AutoTask Manager for automating task tracking and prioritization—with the goal of designing an attractive, user-friendly website that effectively communicates the benefits of AI in enhancing productivity.
 
 
-
-
-
 🎨 **Design Choices**  
 Wireframe:  
 ![Alt text](assets/image/landing%20page%20(1).png)
+
 ![Alt text](assets/image/about-page.png)
+
 ![Alt text](assets/image/contact%20page.png)
+
 ![Alt text](assets/image/color%20schemes.png)
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
