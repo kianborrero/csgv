@@ -17,8 +17,7 @@ A suite of AI-powered productivity tools. These tools include an AI Scheduler fo
 Initial wireframes focused on a two-column layout—feature text on one side, relevant imagery on the other, maintaining high visual clarity.
 
 Logo:
-A minimalist AI-themed logo was designed to symbolize innovation and technology with a sleek, modern feel (uploaded logo image).
-
+The logo features a bold, modern design representing "AI Support." It uses a stylized black "A" formed by geometric lines, with a red block above it suggesting the dot of a lowercase "i," completing the "AI" initials. The clean typography and dark background give it a sleek, tech-forward feel, reflecting innovation and digital support.
 Color Scheme:
 
 The website uses a modern, minimal color palette. The primary background is white, ensuring readability. Accent colors include vibrant shades of *blue and purple* for buttons and highlights, giving a tech-oriented feel. Text is mostly in *black or dark gray*, maintaining contrast. Testimonials and service cards use *light gray* backgrounds to subtly separate content. Overall, the color scheme is clean, professional, and tech-friendly.
