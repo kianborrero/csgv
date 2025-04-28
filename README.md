@@ -26,10 +26,6 @@ The typography uses the "Poppins" font for a modern, clean, and professional loo
 
 
 
-
-### Theme Customization
-Got it! Based on your website [https://binszx.github.io/csgv/](https://binszx.github.io/csgv/), I'll write a **Theme Customization** description for you. Here's a professional version you can use:
-
 ---
 
 **Theme Customization**  
